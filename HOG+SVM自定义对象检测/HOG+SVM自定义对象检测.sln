@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1082
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HOG+SVM自定义对象检测", "HOG+SVM自定义对象检测\HOG+SVM自定义对象检测.vcxproj", "{1BBA3DC2-450D-4DA1-A170-52D17153D6C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BBA3DC2-450D-4DA1-A170-52D17153D6C0}.Debug|x64.ActiveCfg = Debug|x64
+		{1BBA3DC2-450D-4DA1-A170-52D17153D6C0}.Debug|x64.Build.0 = Debug|x64
+		{1BBA3DC2-450D-4DA1-A170-52D17153D6C0}.Debug|x86.ActiveCfg = Debug|Win32
+		{1BBA3DC2-450D-4DA1-A170-52D17153D6C0}.Debug|x86.Build.0 = Debug|Win32
+		{1BBA3DC2-450D-4DA1-A170-52D17153D6C0}.Release|x64.ActiveCfg = Release|x64
+		{1BBA3DC2-450D-4DA1-A170-52D17153D6C0}.Release|x64.Build.0 = Release|x64
+		{1BBA3DC2-450D-4DA1-A170-52D17153D6C0}.Release|x86.ActiveCfg = Release|Win32
+		{1BBA3DC2-450D-4DA1-A170-52D17153D6C0}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8982572F-66CC-4271-B6CB-7C4837383B81}
+	EndGlobalSection
+EndGlobal

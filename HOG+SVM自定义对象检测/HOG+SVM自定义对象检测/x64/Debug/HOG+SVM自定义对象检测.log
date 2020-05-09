@@ -1,0 +1,13 @@
+﻿  demo.cpp
+d:\opencv_c++\learning-opencv\hog+svm自定义对象检测\hog+svm自定义对象检测\train_svm.h(32): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\opencv_c++\learning-opencv\hog+svm自定义对象检测\hog+svm自定义对象检测\train_svm.h(33): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\opencv_c++\learning-opencv\hog+svm自定义对象检测\hog+svm自定义对象检测\train_svm.h(54): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\opencv_c++\learning-opencv\hog+svm自定义对象检测\hog+svm自定义对象检测\train_svm.h(55): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\opencv_c++\learning-opencv\hog+svm自定义对象检测\hog+svm自定义对象检测\test_svm.h(34): warning C4267: “参数”: 从“size_t”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+d:\opencv_c++\learning-opencv\hog+svm自定义对象检测\hog+svm自定义对象检测\test_svm.h(59): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\opencv_c++\learning-opencv\hog+svm自定义对象检测\hog+svm自定义对象检测\test_svm.h(60): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  HOG+SVM自定义对象检测.vcxproj -> D:\opencv_c++\Learning-OpenCV\HOG+SVM自定义对象检测\x64\Debug\HOG+SVM自定义对象检测.exe
