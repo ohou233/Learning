@@ -1,0 +1,4 @@
+﻿  demo.cpp
+D:\Learning C++\List\List\链表.h(144): warning C4715: “LinkedList::NextElem”: 不是所有的控件路径都返回值
+D:\Learning C++\List\List\链表.h(126): warning C4715: “LinkedList::PriorElem”: 不是所有的控件路径都返回值
+  List.vcxproj -> D:\Learning C++\List\List\Debug\List.exe
