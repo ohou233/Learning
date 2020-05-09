@@ -1,0 +1,7 @@
+﻿  demo.cpp
+d:\opencv_c++\learning-opencv\车道线检测\车道线检测\车道线检测\demo.cpp(28): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+d:\opencv_c++\learning-opencv\车道线检测\车道线检测\车道线检测\demo.cpp(29): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+d:\opencv_c++\learning-opencv\车道线检测\车道线检测\车道线检测\demo.cpp(30): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+d:\opencv_c++\learning-opencv\车道线检测\车道线检测\车道线检测\demo.cpp(31): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+d:\opencv_c++\learning-opencv\车道线检测\车道线检测\车道线检测\demo.cpp(76): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  车道线检测.vcxproj -> D:\opencv_c++\Learning-OpenCV\车道线检测\车道线检测\x64\Debug\车道线检测.exe
