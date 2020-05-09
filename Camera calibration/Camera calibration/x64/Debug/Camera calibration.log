@@ -1,0 +1,32 @@
+﻿  demo.cpp
+d:\opencv_c++\learning-opencv\camera calibration\camera calibration\camera calibration\demo.cpp(10): warning C4326: “main”的返回类型应为“int”而非“void”
+d:\opencv_c++\learning-opencv\camera calibration\camera calibration\camera calibration\demo.cpp(61): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\opencv_c++\learning-opencv\camera calibration\camera calibration\camera calibration\demo.cpp(94): warning C4267: “参数”: 从“size_t”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+d:\opencv_c++\learning-opencv\camera calibration\camera calibration\camera calibration\demo.cpp(130): warning C4244: “=”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+d:\opencv_c++\learning-opencv\camera calibration\camera calibration\camera calibration\demo.cpp(131): warning C4244: “=”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+d:\opencv_c++\learning-opencv\camera calibration\camera calibration\camera calibration\demo.cpp(143): warning C4267: “参数”: 从“size_t”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+  Camera calibration.vcxproj -> D:\opencv_c++\Learning-OpenCV\Camera calibration\Camera calibration\x64\Debug\Camera calibration.exe
