@@ -1,0 +1,47 @@
+﻿  demo.cpp
+d:\opencv_c++\learning-opencv\0~9印刷体数字识别\0~9印刷体数字识别\0~9印刷体数字识别\allfeatures.h(18): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+d:\opencv_c++\learning-opencv\0~9印刷体数字识别\0~9印刷体数字识别\0~9印刷体数字识别\allfeatures.h(19): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+d:\opencv_c++\learning-opencv\0~9印刷体数字识别\0~9印刷体数字识别\0~9印刷体数字识别\allfeatures.h(28): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+d:\opencv_c++\learning-opencv\0~9印刷体数字识别\0~9印刷体数字识别\0~9印刷体数字识别\allfeatures.h(29): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+d:\opencv_c++\learning-opencv\0~9印刷体数字识别\0~9印刷体数字识别\0~9印刷体数字识别\allfeatures.h(30): warning C4244: “参数”: 从“float”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+d:\opencv_c++\learning-opencv\0~9印刷体数字识别\0~9印刷体数字识别\0~9印刷体数字识别\allfeatures.h(60): warning C4244: “参数”: 从“float”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+d:\opencv_c++\learning-opencv\0~9印刷体数字识别\0~9印刷体数字识别\0~9印刷体数字识别\allfeatures.h(94): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+d:\opencv_c++\learning-opencv\0~9印刷体数字识别\0~9印刷体数字识别\0~9印刷体数字识别\allfeatures.h(95): warning C4244: “参数”: 从“float”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+d:\opencv_c++\learning-opencv\0~9印刷体数字识别\0~9印刷体数字识别\0~9印刷体数字识别\allfeatures.h(100): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+d:\opencv_c++\learning-opencv\0~9印刷体数字识别\0~9印刷体数字识别\0~9印刷体数字识别\allfeatures.h(107): warning C4244: “参数”: 从“float”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+d:\opencv_c++\learning-opencv\0~9印刷体数字识别\0~9印刷体数字识别\0~9印刷体数字识别\allfeatures.h(149): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+d:\opencv_c++\learning-opencv\0~9印刷体数字识别\0~9印刷体数字识别\0~9印刷体数字识别\allfeatures.h(150): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+d:\opencv_c++\learning-opencv\0~9印刷体数字识别\0~9印刷体数字识别\0~9印刷体数字识别\allfeatures.h(159): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+d:\opencv_c++\learning-opencv\0~9印刷体数字识别\0~9印刷体数字识别\0~9印刷体数字识别\allfeatures.h(160): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+d:\opencv_c++\learning-opencv\0~9印刷体数字识别\0~9印刷体数字识别\0~9印刷体数字识别\allfeatures.h(161): warning C4244: “参数”: 从“float”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+d:\opencv_c++\learning-opencv\0~9印刷体数字识别\0~9印刷体数字识别\0~9印刷体数字识别\allfeatures.h(191): warning C4244: “参数”: 从“float”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+d:\opencv_c++\learning-opencv\0~9印刷体数字识别\0~9印刷体数字识别\0~9印刷体数字识别\allfeatures.h(222): warning C4244: “参数”: 从“float”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+  0~9印刷体数字识别.vcxproj -> D:\opencv_c++\Learning-OpenCV\0~9印刷体数字识别\0~9印刷体数字识别\x64\Debug\0~9印刷体数字识别.exe
