@@ -1,0 +1,36 @@
+﻿  demo.cpp
+D:\opencv_c++\Learning-OpenCV\SVM口罩识别\SVM口罩识别\face.h(33,16): warning C4244: “初始化”: 从“_Tp”转换到“int”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\opencv_c++\Learning-OpenCV\SVM口罩识别\SVM口罩识别\face.h(34,17): warning C4244: “初始化”: 从“_Tp”转换到“int”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\opencv_c++\Learning-OpenCV\SVM口罩识别\SVM口罩识别\face.h(35,19): warning C4244: “初始化”: 从“_Tp”转换到“int”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\opencv_c++\Learning-OpenCV\SVM口罩识别\SVM口罩识别\face.h(36,19): warning C4244: “初始化”: 从“_Tp”转换到“int”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\opencv_c++\Learning-OpenCV\SVM口罩识别\SVM口罩识别\face.h(37,23): warning C4244: “初始化”: 从“_Tp”转换到“int”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\opencv_c++\Learning-OpenCV\SVM口罩识别\SVM口罩识别\face.h(38,23): warning C4244: “初始化”: 从“_Tp”转换到“int”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\opencv_c++\Learning-OpenCV\SVM口罩识别\SVM口罩识别\face_mask.h(17,43): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\opencv_c++\Learning-OpenCV\SVM口罩识别\SVM口罩识别\face_mask.h(18,43): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\opencv_c++\Learning-OpenCV\SVM口罩识别\SVM口罩识别\face_mask.h(51,41): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\opencv_c++\Learning-OpenCV\SVM口罩识别\SVM口罩识别\face_mask.h(52,39): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  SVM口罩识别.vcxproj -> D:\opencv_c++\Learning-OpenCV\SVM口罩识别\SVM口罩识别\x64\Debug\SVM口罩识别.exe
