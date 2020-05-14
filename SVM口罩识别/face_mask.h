@@ -9,7 +9,7 @@
 using namespace std;
 using namespace cv;
 
-void trainSVM(vector<Mat> positive_images, vector<Mat> negative_images, string path)
+void trainSVM(vector<Mat> positive_images, vector<Mat> negative_images, string path, Net model)
 {
 	//分别获取正负样本中每张图像的HOG特征描述子，并进行标注
 	HOGDescriptor* hog_train = new HOGDescriptor;
@@ -21,7 +21,7 @@ void trainSVM(vector<Mat> positive_images, vector<Mat> negative_images, string p
 	{
 		Mat positive_face;
 		Rect positive_faceBox;
-		if (faceDetected(positive_images[i], positive_face, positive_faceBox))
+		if (faceDetected(positive_images[i], positive_face, positive_faceBox, model))
 		{
 			resize(positive_face, positive_face, Size(64, 128));
 			Mat gray;
@@ -36,7 +36,7 @@ void trainSVM(vector<Mat> positive_images, vector<Mat> negative_images, string p
 	{
 		Mat negative_face;
 		Rect negative_faceBox;
-		if (faceDetected(negative_images[j], negative_face, negative_faceBox))
+		if (faceDetected(negative_images[j], negative_face, negative_faceBox, model))
 		{
 			resize(negative_face, negative_face, Size(64, 128));
 			Mat gray;
@@ -86,11 +86,11 @@ bool face_mask_detectd(Mat faceImg, Ptr<ml::SVM> model)
 }
 
 
-void FaceMaskDetect(Mat& inputImg, Ptr<ml::SVM> detecModel)
+void FaceMaskDetect(Mat& inputImg, Ptr<ml::SVM> detecModel, Net model)
 {
 	Mat face;
 	Rect faceBox;
-	if (faceDetected(inputImg, face, faceBox))
+	if (faceDetected(inputImg, face, faceBox, model))
 	{
 		if (face_mask_detectd(face, detecModel))
 		{

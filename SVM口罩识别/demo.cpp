@@ -12,10 +12,15 @@ using namespace cv::dnn;
 
 int main()
 {
-	/***********************************************训练***********************************************/
+	///***********************************************训练***********************************************/
+	//string model_path = "D:\\opencv_c++\\opencv_tutorial\\data\\models\\face_detector\\opencv_face_detector_uint8.pb";
+	//string config_path = "D:\\opencv_c++\\opencv_tutorial\\data\\models\\face_detector\\opencv_face_detector.pbtxt";
+	//Net face_detector = readNetFromTensorflow(model_path, config_path);
+	//face_detector.setPreferableBackend(DNN_BACKEND_INFERENCE_ENGINE);
+	//face_detector.setPreferableTarget(DNN_TARGET_CPU);
 	////加载正负样本
-	//string positive_path = "D:\\opencv_c++\\opencv_tutorial\\data\\test\\positive\\";
-	//string negative_path = "D:\\opencv_c++\\opencv_tutorial\\data\\test\\negative\\";
+	//string positive_path = "D:\\opencv_c++\\opencv_tutorial\\data\\Face_Mask_Detection\\positive\\";
+	//string negative_path = "D:\\opencv_c++\\opencv_tutorial\\data\\Face_Mask_Detection\\negative\\";
 	////通过glob()将路径下的所有图像文件以string类型读取进来
 	//vector<string> positive_images_str, negative_images_str;
 	//glob(positive_path, positive_images_str);
@@ -35,18 +40,29 @@ int main()
 	//	negative_images.push_back(negative_image);
 	//}
 	//string savePath = "face_mask_detection.xml";
-	//trainSVM(positive_images, negative_images, savePath);
+	//trainSVM(positive_images, negative_images, savePath, face_detector);
 
 
 	/****************************************检测******************************************/
-	auto detecModel = ml::SVM::load("face_mask_detection.xml");
-	Mat test_image = imread("D:/BaiduNetdiskDownload/人脸口罩检测数据集/val/13_Interview_Interview_On_Location_13_3.jpg");
-	FaceMaskDetect(test_image, detecModel);
-	//namedWindow("test_image", WINDOW_FREERATIO);
-	imshow("test_image", test_image);
-	
+	//string model_path = "D:\\opencv_c++\\opencv_tutorial\\data\\models\\face_detector\\opencv_face_detector_uint8.pb";
+	//string config_path = "D:\\opencv_c++\\opencv_tutorial\\data\\models\\face_detector\\opencv_face_detector.pbtxt";
+	//Net face_detector = readNetFromTensorflow(model_path, config_path);
+	//face_detector.setPreferableBackend(DNN_BACKEND_INFERENCE_ENGINE);
+	//face_detector.setPreferableTarget(DNN_TARGET_CPU);
+	//auto detecModel = ml::SVM::load("face_mask_detection.xml");
+	//Mat test_image = imread("D:\\opencv_c++\\opencv_tutorial\\data\\images\\objects.jpg");
+	//FaceMaskDetect(test_image, detecModel, face_detector);
+	////namedWindow("test_image", WINDOW_FREERATIO);
+	//imshow("test_image", test_image);
+	//
 	
 	/************************************实时检测********************************************/
+	//string model_path = "D:\\opencv_c++\\opencv_tutorial\\data\\models\\face_detector\\opencv_face_detector_uint8.pb";
+	//string config_path = "D:\\opencv_c++\\opencv_tutorial\\data\\models\\face_detector\\opencv_face_detector.pbtxt";
+	//Net face_detector = readNetFromTensorflow(model_path, config_path);
+	//face_detector.setPreferableBackend(DNN_BACKEND_INFERENCE_ENGINE);
+	//face_detector.setPreferableTarget(DNN_TARGET_CPU);
+	//auto detecModel = ml::SVM::load("face_mask_detection.xml");
 	//VideoCapture capture;
 	//capture.open(0);
 	//if (!capture.isOpened())
@@ -57,7 +73,7 @@ int main()
 	//Mat frame;
 	//while (capture.read(frame))
 	//{
-	//	FaceMaskDetect(frame, detecModel);
+	//	FaceMaskDetect(frame, detecModel, face_detector);
 	//	//namedWindow("test_image", WINDOW_FREERATIO);
 	//	imshow("test_image", frame);
 

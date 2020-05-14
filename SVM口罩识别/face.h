@@ -10,13 +10,9 @@ using namespace cv;
 using namespace cv::dnn;
 
 
-bool faceDetected(Mat inputImg, Mat& outputFace, Rect &facebox)
+bool faceDetected(Mat inputImg, Mat& outputFace, Rect &facebox, Net face_detector)
 {
-	string model_path = "D:\\opencv_c++\\opencv_tutorial\\data\\models\\face_detector\\opencv_face_detector_uint8.pb";
-	string config_path = "D:\\opencv_c++\\opencv_tutorial\\data\\models\\face_detector\\opencv_face_detector.pbtxt";
-	Net face_detector = readNetFromTensorflow(model_path, config_path);
-	face_detector.setPreferableBackend(DNN_BACKEND_OPENCV);
-	face_detector.setPreferableTarget(DNN_TARGET_CPU);
+	
 	Mat frame = inputImg;
 	Mat inputBlob = blobFromImage(frame, 1.0, Size(300, 300), Scalar(104.0, 177.0, 123.0), false);
 
@@ -39,7 +35,6 @@ bool faceDetected(Mat inputImg, Mat& outputFace, Rect &facebox)
 			int width = button_right_x - top_left_x;
 			int height = button_right_y - top_left_y;
 			Rect box(top_left_x, top_left_y, width, height);
-			//rectangle(frame, box, Scalar(0, 255, 0), 1, 8, 0);
 			cout << classID << "," << notKnown << "," << confidence << endl;
 			if (box.x < 0 || box.y < 0)
 			{
