@@ -1,0 +1,5 @@
+﻿  uic QtWidgetsApplication.ui
+  QtWidgetsApplication.cpp
+  main.cpp
+  moc_QtWidgetsApplication.cpp
+  口罩识别.vcxproj -> D:\opencv_c++\Learning-OpenCV\SVM口罩识别\QT\口罩识别\x64\Debug\口罩识别.exe

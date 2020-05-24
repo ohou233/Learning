@@ -1,0 +1,2 @@
+D:\opencv_c++\Learning-OpenCV\SVM口罩识别\QT\口罩识别\x64\Debug\口罩识别.exe
+D:\opencv_c++\Learning-OpenCV\SVM口罩识别\QT\口罩识别\x64\Debug\口罩识别.pdb
