@@ -1,0 +1,2 @@
+D:\opencv_c++\Learning-OpenCV\ArUco-AR\AR\x64\Debug\AR.exe
+D:\opencv_c++\Learning-OpenCV\ArUco-AR\AR\x64\Debug\AR.pdb
